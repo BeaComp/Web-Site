@@ -1,0 +1,187 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.menu-principal{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #185759;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-sociais ul li {
+    margin-left: 13px;
+    margin-right: 6px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    padding: 5px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    padding: 13px;
+
+}
+
+.menus ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+}
+
+.menus ul li:hover {
+    border-bottom: 2px solid #00bac6;
+    height: 46px;
+}
+
+.menus ul li a:hover {
+    color: #00bac6;
+}
+
+.menus ul li a{
+    color: #807e7e;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menus {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    width: 30%;
+    float: right;
+    margin-top: 7px;
+}
+
+.busca input {
+    background-image: url(../img/icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    border: 1px solid #d6d6d6;
+    margin-top: auto;
+    margin: 0 auto;
+    height: 20px;
+    padding: 6px;
+    width: 190px;
+    
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+.menus-buscas {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 2px solid #efefef;
+    height: 75px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-whatsapp {
+    color: white;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta-anterior.png');
+    top: 45%;
+    left: 14%;
+}
+
+ul.slick-dots li button::before{
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    border-radius: 60%;
+    width: 10px;
+    height: 10px;
+    background-color: #00bac6;
+}
+
+ul.slick-dots {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+button.slick-prev::before{
+    content: none;
+}
+
+button.slick-next::before{
+    content: none;
+}
+
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta-proximo.png');
+    top: 45%;
+    right: 14%;
+}
