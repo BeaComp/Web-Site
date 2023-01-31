@@ -8,7 +8,7 @@ ul {
     padding: 0px!important;
 }
 
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -24,7 +24,7 @@ main {
 
 .logo {
     float: left;
-    padding: 16px;
+    padding: 15px;
     width: 70%;
 }
 
@@ -47,7 +47,7 @@ main {
     margin: 0 auto;
     width: 980px;
     position: relative;
-    padding: 13px;
+    padding: 5px;
 
 }
 
@@ -161,9 +161,6 @@ ul.slick-dots {
     margin-right: auto;
 }
 
-
-
-
 button.slick-prev::before{
     content: none;
 }
@@ -184,4 +181,149 @@ button.slick-next {
     background-image: url('../img/seta-proximo.png');
     top: 45%;
     right: 14%;
+}
+
+/* .box {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    font-size: 26px;
+} */
+
+.texto-destaque {
+    text-align: justify;
+}
+
+.texto-destaque h1 {
+    color: #7c7b7b;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    
+}
+
+.texto-destaque p {
+    color: #868585;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.texto-destaque-veterinarios h1 {
+    margin: 60px;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.texto-destaque-veterinarios h3 {
+    font-size: 20px;
+    color: #6e6e6e;
+    width: 190px;
+    text-align: center;
+}
+
+.texto-destaque-veterinarios h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #868585;
+    width: 190px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-4 {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.service {
+    background-color: #1C5B5D;
+}
+
+.service h1{
+    margin: 60px;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #e7e4e4;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-bottom: 50px;
+}
+
+.col-8 {
+    width: 25%;
+    float: left;
+    position: relative;
+    
+}
+
+.servicos h2{
+    font-size: 20px;
+    color: #e9e4e4;
+    width: 190px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.servicos h3{
+    font-size: 15px;
+    color: #e9e4e4;
+    width: 190px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 45px;
+}
+
+
+.col-2{
+    width: 33%;
+    float: left;
+    position: relative;
+}
+
+.contatos h1{
+    color: #918f8f;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.contatos h2{
+    color: #1C5B5D;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.col-3{
+    width: 22%;
+    font-size: 14px;
+    float: left;
+    position: relative;
+    margin-left: 40px;
+}
+
+.rodape{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #185759;
+    height: 60px;
+}
+
+.texto-rodape{
+    color:#cac9c9de;
+    padding: 5px;
+    float: left;
+    width: 70%;
+    margin-left: 35px;
+    
 }
