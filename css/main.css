@@ -1,3 +1,4 @@
+
 body {
     margin: 0 auto;
     width: 100%;
@@ -15,11 +16,13 @@ main, .content {
 
 }
 
+
 .menu-principal{
     width: 100%;
     margin: 0 auto;
     background-color: #185759;
     height: 60px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .logo {
@@ -50,6 +53,7 @@ main, .content {
     padding: 5px;
 
 }
+
 
 .menus ul li {
     display: inline-block;
@@ -110,6 +114,7 @@ main, .content {
     position: relative;
     border-bottom: 2px solid #efefef;
     height: 75px;
+    
 }
 
 .fa:hover {
@@ -326,4 +331,20 @@ button.slick-next {
     width: 70%;
     margin-left: 35px;
     
+}
+
+.busca input {
+    border-radius: 45px;
+    border: 2px solid #d6d6d6;
+    border-color: #185759;
+    
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+input:hover {
+    border-color: #cac9c9de;
 }
