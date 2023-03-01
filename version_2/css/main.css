@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+
+:root {
+    --background: #185759;
+    --menus: #807e7e;
+    --menus-hover: #00bac6;
+    --h1: #7c7b7b;
+    --paragrafo: #868585;
+    --cor5: #15472C;
+
+    --font-padrao: 'Cardo', serif;
+
+}
+
+body {
+    margin: auto;
+}
+
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+header {
+    background-color: var(--background);
+    height: 60px;
+}
+
+header > img {
+    margin-left: 7%;
+    margin-top: 14px;
+}
+
+.menus-buscas {
+    height: 75px;
+}
+
+.menus {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 0px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.menus > li {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.menus > li > a:hover {
+    color: var(--menus-hover);
+}
+
+.menus > li > a {
+    color: var(--menus);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: var(--font-padrao);
+    text-transform: uppercase;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta-anterior.png');
+    top: 45%;
+    left: 14%;
+}
+
+ul.slick-dots li button::before{
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    border-radius: 60%;
+    width: 10px;
+    height: 10px;
+    background-color: #00bac6;
+}
+
+ul.slick-dots {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.slick-prev::before{
+    content: none;
+}
+
+button.slick-next::before{
+    content: none;
+}
+
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/seta-proximo.png');
+    top: 45%;
+    right: 14%;
+}
+
+section > h1 {
+    color: var(--h1);
+    text-align: center;
+    font-family: var(--font-padrao); 
+    font-size: 27px;
+}
+
+section > p {
+    color: var(--paragrafo);
+    font-size: 20px;
+    font-family: var(--font-padrao); 
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+
+main h3 {
+    font-size: 20px;
+    font-family: var(--font-padrao); 
+    color: #6e6e6e;
+    text-align: center;
+}
+
+main h4 {
+    font-size: 14px;
+    font-family: var(--font-padrao); 
+    text-transform: uppercase;
+    color: #868585;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.vet {
+    text-align: center;
+}
+
+.servicos {
+    margin: auto;
+}
+
+
+.servicos h1{
+    color: var(--h1);
+    text-align: center;
+    font-family: var(--font-padrao); 
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.servicos div {
+    float: left;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(124, 122, 122, 0.137);
+    min-width: 50%;
+    height: 210px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.servicos > div:hover {
+    background-color: #18575909;
+    transition-duration: 0.5s;
+}
+
+.servicos h2{
+    font-size: 20px;
+    color: var(--h1);
+    font-family: var(--font-padrao);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.servicos h3{
+    font-size: 15px;
+    font-family: var(--font-padrao);
+    width: 180px;
+    margin: auto;
+    color: var(--paragrafo);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contact div {
+    background-color: #1857599d;
+    width: 500px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact info {
+    position: relative;
+    margin: 20px 0;
+}
+
+.contact li {
+    position: relative;
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+    padding-top: 10px;
+    
+}
+
+.contact li > span {
+    min-width: 50px;
+    color: rgb(233, 230, 230);
+    margin-left: 10px;
+    font-family: var(--font-padrao);
+    font-size: 17px;
+}
+
+.contact li > span > img {
+    padding-top: 10px;
+    max-width: 100%;
+    
+}
+
+.sci {
+    position: relative;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.contact h1{
+    color: var(--h1);
+    text-align: center;
+    font-family: var(--font-padrao); 
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+
+footer {
+    background-color: var(--background);
+    color:#cac9c9de;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 7px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #cac9c9de;
+}
+
