@@ -6,6 +6,8 @@ Nele coloquei em práticas alguns conceitos de HTML, CSS e JavaScript. A ideia �
 
 Esse repositório contém duas versões: uma não responsiva (version_1) e outra responsiva (version_2).
 
+A versão responsiva se encontra neste link: https://beacomp.github.io/PetCat/
+
 E aqui temos os códigos das cores e um esboço feito no Canva: [Flex Grid](https://www.canva.com/design/DAFZ8KsxmJA/G52fjBPNL-TvNzxjSmV3_g/edit?utm_content=DAFZ8KsxmJA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) 
 
 
